@@ -45,5 +45,6 @@ int main()
 	cout << "Input the direction" << endl;
 	cin >> direction;
 	points(x, y, direction);
+	delete[]direction;
 	return 0;
 }
